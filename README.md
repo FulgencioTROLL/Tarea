@@ -1,2 +1,2 @@
-# lol es un juego para gordos
+  Trabajo Analisis
 Tarea
