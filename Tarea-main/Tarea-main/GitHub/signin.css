@@ -1,73 +1,60 @@
-/* Reset CSS (using Normalize.css) */
-@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
-
 body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f8f9fa;
-  color: #495057;
-}
-
-.form-signin {
-  width: 100%;
-  max-width: 400px;
-  padding: 15px;
-  margin: auto;
-}
-
-.form-floating {
-  margin-bottom: 1rem;
-  border: 2px solid #83afd8;
-  border-radius: 8px;
-  padding: 10px;
-  background-color: #83afd8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .form-signin {
+    width: 100%;
+    max-width: 400px;
+    padding: 15px;
+    margin: auto;
+  }
+  
+  .form-floating {
+    margin-bottom: 1rem;
+    border: 2px solid #9cabb9; /* Añade un borde de color azul */
+    border-radius: 8px; /* Añade esquinas redondeadas */
+    padding: 10px; /* Añade un poco de espacio interno */
+    background-color: #83afd8; /* Color de fondo */
 }
 
 .form-floating label {
-  display: block;
-  margin-top: 1px;
-  margin-left: 10px;
-  background-color: #83afd8;
-  padding: 0 5px;
-  color: #0f0f0f;
-  z-index: 1;
+    display: block;
+    margin-top: 1px; /* Ajusta la posición del label según el nuevo diseño */
+    margin-left: 10px; /* Ajuste de posición adicional */
+    background-color: #9cabb9; /* Coincide con el color de fondo del div */
+    padding: 0 5px; /* Agrega un poco de espacio interno alrededor del texto del label */
+    color: #0f0f0f; /* Color del texto del label */
+    z-index: 1; /* Asegura que el label esté sobre el input */
 }
 
 .form-floating input {
-  width: 100%;
-  padding: 10px;
-  box-sizing: border-box;
-  z-index: 0;
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    z-index: 0; /* Asegura que el input esté detrás del label */
 }
 
-.form-container {
-  border: 1px solid #ced4da;
-  border-radius: 10px;
-  max-width: 400px;
-  margin: auto;
-  overflow: hidden;
-}
-
-.checkbox {
-  margin-bottom: 1rem;
-}
-
-.btn-primary {
-  background-color: #007bff;
-  border-color: #007bff;
-}
-
-.btn-primary:hover {
-  background-color: #0056b3;
-  border-color: #0056b3;
-}
-
-.text-muted {
-  text-align: center;
-  font-size: 0.875rem;
-  margin-top: 50px; /* Keep one margin-top property for consistency */
-}
+  
+  .checkbox {
+    margin-bottom: 1rem;
+  }
+  
+  .btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+  }
+  
+  .text-muted {
+    text-align: center;
+    margin-top: 5rem;
+  }
+  
