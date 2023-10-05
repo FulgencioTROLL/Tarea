@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(58, 146, 161);
+}
+
+.card {
+    margin: 7cm;
+}
+
+/* futura forma de agregar las peliculas */
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+  }
+  
