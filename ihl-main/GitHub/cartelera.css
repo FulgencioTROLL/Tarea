@@ -4,9 +4,9 @@ body {
 }
 
 .card {
-    margin: 3cm;
+    margin: 7%;
     margin-top: 1cm;
-    max-width: 18rem;
+    white-space-collapse: 12rem;
 }
 
 .container {
@@ -25,22 +25,23 @@ body {
     background-color: white;
     padding: 50px;
     border-radius: 5px;
-    margin: 3cm;
+    margin: 1cm;
     margin-top: 1cm;
-    max-width: 40rem;
-    margin-left: 10px;
+    margin-left: 36%;
+    width: 35%;
+    margin-bottom: 2%;
 }
 
 .category-box {
     background-color: white;
-    padding: 5px;
-    padding-top: 10px ;
+    padding: 2%;
+    padding-top: 7px ;
     border-radius: 5px;
     margin: 1px;
     margin-top: 1cm;
-    max-width: 40rem;
-    margin-bottom: 20px ;
-    margin-left: 10px; /* Mueve estos elementos hacia la derecha dentro de card-group */
+    width: 90%;
+    margin-bottom: 2% ;
+    margin-left: 7%; /* Mueve estos elementos hacia la derecha dentro de card-group */
 }
 
 /* Agrega estilos a los botones dentro de .category-box */
@@ -60,5 +61,5 @@ body {
 
 .category-box button:focus {
     outline: none; /* Elimina el contorno al enfocarse */
-    box-shadow: 0 0 0 3px rgba(177, 208, 241, 0.5); /* Sombra al enfocarse */
+    box-shadow: 0 0 0 3px rgba(177, 208, 241, 0.5); /* Sombra al enfocarse */
 }
